@@ -9,6 +9,7 @@ import android.view.View;
 
 import com.hassantijani.pantha.R;
 import com.hassantijani.pantha.auth.LoginActivity;
+import com.hassantijani.pantha.auth.SignUpActivity;
 import com.hassantijani.pantha.models.Slider;
 import com.hassantijani.pantha.utils.SliderAdapter;
 
@@ -51,5 +52,7 @@ public class OnboardingActivity extends AppCompatActivity {
     }
 
     public void goToSignUp(View view) {
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
     }
 }

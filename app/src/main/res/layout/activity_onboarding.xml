@@ -34,6 +34,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:text="@string/sign_up"
+        android:onClick="goToSignUp"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,13 +72,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/grey"
-            android:text="Sign up as an agent to earn cash." />
+            android:text="@string/sign_up_as_an_agent_to_earn_cash" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sign_up"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:onClick="goToSignUp"
             android:textColor="@color/colorPrimary" />
     </LinearLayout>

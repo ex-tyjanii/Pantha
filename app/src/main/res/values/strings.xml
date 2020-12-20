@@ -8,4 +8,9 @@
     <string name="full_name">Full Name</string>
     <string name="phone_number">Phone Number</string>
     <string name="agent_type">Agent Type</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="existing_user">Existing user?</string>
+    <string name="sign_up_as_an_agent_to_earn_cash">Sign up as an agent to earn cash.</string>
+    <string name="existing_agent">Existing agent?</string>
 </resources>

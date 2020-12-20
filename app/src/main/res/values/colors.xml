@@ -6,4 +6,5 @@
     <color name="lightOrange">#fff3e5</color>
     <color name="white">#fff</color>
     <color name="grey">#AFAFAF</color>
+    <color name="inactiveButton">#848484</color>
 </resources>
